@@ -90,12 +90,12 @@ justify-content: space-between;
   border-radius: 15px;
   font-size: 2rem;
 }
-
 .btn1{
   font-family: var(--font1);
-  color: var(--midnightblue);
-  background-color:var(--sky);
-  border: 3px var(--midnightblue) solid;
+  margin: 1.5rem;
+  color: var(--white);
+  background-color: var(--midnightblue);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 /* -------------------------Sub container2------------------ */
@@ -112,8 +112,8 @@ justify-content: space-between;
 
 .sub2txt1{
   letter-spacing: -2px;
-  font-size: 4rem;
-  margin: 3rem;
+  font-size: 3.5rem;
+  margin: 2rem;
 }
 
 .sub2txt2{
@@ -125,8 +125,9 @@ justify-content: space-between;
 .btn2{
   font-family: var(--font1);
   margin: 1.5rem;
-  color: var(--sky);
+  color: var(--white);
   background-color: var(--midnightblue);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
 /* -------------------------SUBCONTAINER3------------------ */
@@ -142,12 +143,12 @@ justify-content: space-between;
   max-width: 46rem;
   grid-row: 1/2;
   grid-column: 1/2;
-  border: 1px black solid;
+  /* border: 1px black solid; */
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
 
