@@ -1,0 +1,99 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+:root{
+  --font1:"Montserrat", sans-serif;
+  --font2:"Roboto Condensed", sans-serif;
+  --font3:"Epunda Slab", serif;
+    --midnightblue:#232946;
+  --pink:#eebbc3;
+  --white:#fffffe;
+  --sky:#d4d8f0;
+  --br:#121629;
+}
+
+
+body{
+  width: 100vw;
+  background: #f3f4f6;
+  font-family: var(--font2);
+
+}
+
+html{
+  font-size: 62.5%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+/* -------------------------Main container2------------------ */
+.maincontainer2{
+display: flex;
+max-width: 100rem;
+width: 80%;
+
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+/* -------------------------Sub container1------------------ */
+
+
+.subcontainer1{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid black;
+}
+/* -------------------------mini container1------------------ */
+
+.minicontainer1{
+  display: flex;
+}
+
+.sub1img{
+  width: 7rem;
+}
+.sub1txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub1txt1{
+  font-size: 2.048rem;
+  font-family: var(--font1);
+  font-weight: 600;
+
+}
+.sub1txt2{
+ font-size: 1.28rem;
+}
+
+.sub1txt3{
+  font-size:0.8rem;
+}
+/* -------------------------mini container2------------------ */
+
+.minicontainer2{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  margin-right: 4rem;
+}
+.btn{
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border-radius: 15px;
+  font-size: 2rem;
+}
+
+.btn1{
+  font-family: var(--font1);
+  color: var(--midnightblue);
+  background-color:var(--sky);
+  border: 3px var(--midnightblue) solid;
+}
