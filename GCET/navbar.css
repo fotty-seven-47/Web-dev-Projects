@@ -14,6 +14,7 @@ body{
   width: 100vw;
   background: #f3f4f6;
   font-family: var(--font2);
+  /* padding-top: 75%; 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
 
 }
 
@@ -49,6 +50,7 @@ a{
   flex-direction: column;
   justify-content: space-between;
   border-right: 0.5px solid black;
+
 }
 
 .lst1,.lst2{
@@ -71,7 +73,9 @@ a{
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 15px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 
 .navlink:hover{ 
