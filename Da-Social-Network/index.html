@@ -26,7 +26,7 @@
     <div class="createapost">
           <p class="head1">Create a post</p>
 
-          <input id="cap" type="text" class="mind1"    placeholder="Whats on your mind...?">
+          <input id="cap" type="text" class="mind1"  name="cap"  placeholder="Whats on your mind...?">
 
           <div class="lastline">
             <div class="category1">
@@ -34,8 +34,8 @@
           <br>
           <select name="options" id="options" type="category">
             <option value="Thought">Thought</option>
-            <option value="Confession">Confession</option>
-            <option value="Rant">Rant</option>
+            <option value="Confession">Complaint</option>
+            <option value="Rant">Other</option>
           </select>
             </div>
             <div class="addimg">
@@ -45,10 +45,8 @@
               <a  style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;;" href=""><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/520900/poll.svg" alt="">Poll</a>              
             </div> 
   
-
-                         <button  style="background: var(--primary-shade); color: white; border: none;" class="btn btn-primary post69" onclick="storeValue()">Share your Thought</button>
+             <button  style="background: var(--primary-shade); color: white; border: none;" class="btn btn-primary post69" onclick="storeValue()">Share your Thought</button>
     </div>
-    <!-- HERO-SECTION -->
     </div>
     <!-- HERO-SECTON -->
      <section>
@@ -58,9 +56,9 @@
           
           <p class="mainmessage">This is my first ever post on DaSocialNetwork</p>
           <div class="messagebuttons">
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt=""> 0 Likes</button>
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt=""> 0 DisLikes</button>
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/522067/comment-1.svg" alt=""> 0 Comments</button>
+            <button  id="likes" class="messagebuttons1 likes1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt="">  <p class="counter">0</p>  Likes</button>
+            <button  id="dislikes" class="messagebuttons1 dislikes1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt="">  <p class="counter">0</p>  DisLikes</button>
+            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/522067/comment-1.svg" alt="">  <p class="counter">0</p>  Comments</button>
             
           </div>
           
@@ -69,13 +67,13 @@
         <div class="message2">
           <div class="userdelete">
             <p class="messageusername">Anonymous-47</p>
-            <button class="deletebtn"><img style="width: 3rem;" src="https://www.svgrepo.com/show/500535/delete.svg" alt=""></button>
+            <!-- <button class="deletebtn"><img style="width: 3rem;" src="https://www.svgrepo.com/show/500535/delete.svg" alt=""></button> -->
              
           </div>
           <p class="mainmessage">Ladies and Gentleman,this is the DaSocialNetwork ofcourse a lot of work still need to be done but you get the idea </p>
           <div class="messagebuttons">
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt=""> 0 Likes</button>
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt=""> 0 DisLikes</button>
+            <button id="likes" class="messagebuttons1 likes1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt=""> <p class="counter">0</p> Likes</button>
+            <button  id="dislikes"  class="messagebuttons1 dislikes1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt="">  <p class="counter">0</p>  DisLikes</button>
             <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/522067/comment-1.svg" alt=""> 0 Comments</button>
 
           </div>
@@ -83,27 +81,16 @@
         <div class="message">
             <p class="messageusername">Anonymous-47</p>
           
-          <p class="mainmessage">This post is an attempt just to increase the height of the page and to see how the page behaves as well as the card that we have made</p>
+          <p class="mainmessage">You can post content and your thoughts on the DaSocialNetwork by clicking on the Post here button above</p>
           <div class="messagebuttons">
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt=""> 0 Likes</button>
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt=""> 0 DisLikes</button>
+            <button id="likes" class="messagebuttons1 likes1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt="">  <p class="counter">0</p>  Likes</button>
+            <button id="dislikes" class="messagebuttons1 dislikes1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt="">  <p class="counter">0</p> DisLikes</button>
             <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/522067/comment-1.svg" alt=""> 0 Comments</button>
             
           </div>
           
         </div>     
-        <div class="message">
-            <p class="messageusername">Anonymous-47</p>
-          
-          <p class="mainmessage">This post is the second try or an attempt to increase the height of the page and to see how the page behaves as well as the card that we have made</p>
-          <div class="messagebuttons">
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt=""> 0 Likes</button>
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt=""> 0 DisLikes</button>
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/522067/comment-1.svg" alt=""> 0 Comments</button>
-            
-          </div>
-          
-        </div>            
+        
       </div>
      </section>
 
@@ -112,7 +99,7 @@
       <div class="helpdude">
 
         <div class="helpdude1">
-          <a href="">Edit Profile</a>
+          <button class="editprofile1">Edit Profile</button>
           <a href="">FAQs</a>
           <a href="">Guidelines</a>
 
@@ -124,18 +111,36 @@
 </button>
       </div>
      </section>
+
+     <!-- EDIT PROFILE SECTION -->
+       <div class="createapost1">
+          <p class="head1">Edit Your Profile</p>
+
+          <input id="EYP" type="text" class="mind1"  name="cap"  placeholder="What name do you want....?">
+
+             <button style="background: var(--primary-shade); color: white; border: none;" class="btn btn-primary post70" onclick="changename()">Change-name</button>
+    </div>
 <script>
+
+  let username="Anonymous-47";
+  function changename(){
+    let name1=document.getElementById("EYP").value;
+    if(name1===''){
+      username="Anonymous-47"
+    }else{
+     username=name1;}
+  }
   function storeValue(){
     let userinput=document.getElementById("cap").value;
     console.log(userinput);
     const html1=`       
      <div class="message">
-            <p class="messageusername">StickMan-47</p>
+            <p class="messageusername">${username}</p>
           
           <p class="mainmessage">${userinput}</p>
           <div class="messagebuttons">
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt=""> 0 Likes</button>
-            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt=""> 0 DisLikes</button>
+            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt="">  <p class="counter">0</p>  Likes</button>
+            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt="">  <p class="counter">0</p>  DisLikes</button>
             <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/522067/comment-1.svg" alt=""> 0 Comments</button>
             
           </div>
@@ -144,9 +149,10 @@
 
         document.querySelector(".hero-section").insertAdjacentHTML('afterbegin',html1);
   }
+
+
 </script>
      
 </body>
 <script src="script.js"></script>
-
 </html>
