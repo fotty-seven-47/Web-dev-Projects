@@ -46,7 +46,7 @@
             </div> 
   
 
-            <a  href="" style="display: inline-flex; justify-content: center; align-items: center;" class="btn btn-primary post69">Post Anonymously</a>
+                         <button  style="background: var(--primary-shade); color: white; border: none;" class="btn btn-primary post69" onclick="storeValue()">Share your Thought</button>
     </div>
     <!-- HERO-SECTION -->
     </div>
@@ -124,8 +124,29 @@
 </button>
       </div>
      </section>
+<script>
+  function storeValue(){
+    let userinput=document.getElementById("cap").value;
+    console.log(userinput);
+    const html1=`       
+     <div class="message">
+            <p class="messageusername">StickMan-47</p>
+          
+          <p class="mainmessage">${userinput}</p>
+          <div class="messagebuttons">
+            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"  ><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451384/thumbs-up.svg" alt=""> 0 Likes</button>
+            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/451383/thumbs-down.svg" alt=""> 0 DisLikes</button>
+            <button class="messagebuttons1" style="display: inline-flex; justify-content: center; align-items: center; gap: 0.3rem;"><img style="width: 2.5rem;" src="https://www.svgrepo.com/show/522067/comment-1.svg" alt=""> 0 Comments</button>
+            
+          </div>
+          
+        </div>`
 
+        document.querySelector(".hero-section").insertAdjacentHTML('afterbegin',html1);
+  }
+</script>
      
 </body>
 <script src="script.js"></script>
+
 </html>
