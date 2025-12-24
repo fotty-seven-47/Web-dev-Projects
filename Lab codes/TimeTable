@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+            margin: 2px;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1> GOVT. COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Peroid</th>
+                <th>9:00 - 10:00</th>
+                <th>10:00 - 11:00</th>
+                <th>11:00 - 12:00</th>
+                <th>12:00 - 01:00</th>
+                <th>01:00 - 2:00</th>
+                <th>2:00 - 3:00</th>
+                <th>3:00 - 4:00</th>
+                <th>4:00 - 5:00</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">Digital System Design</td>
+                <td rowspan="2">Web Technology</td>
+                <td rowspan="2">Enterpreneurship and Business Strategies</td>
+                <td rowspan="2">Object Oriented Programming using C++</td>
+                <td rowspan="9">B<br>R<br>E<br>A<br>K</td>
+                <td rowspan="2">Mathematics-III</td>
+                <td colspan="2">Object Oriented Programming using C++</td>
+            </tr>
+            <tr>
+                <td colspan="2">Web Technology Lab </td>
+            </tr>
+
+            <tr>
+                <td rowspan="1">Tuesday</td>
+                <td rowspan="1">Enterpreneurship and Business Strategies</td>
+                <td>Object Oriented Programming using C++</td>
+                <td colspan="2">Digital System Design Lab</td>
+
+                <td>Web Technology</td>
+                <td>Mathematics-III</td>
+                <td>Training Placement Counselling</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Wednesday</td>
+                <td rowspan="2">Computer Organisation & Architecture</td>
+                <td rowspan="2">Object Oriented Programming using C++</td>
+                <td colspan="2">Object Oriented Programming using C++</td>
+                <td rowspan="2">Digital System Design</td>
+                <td>Enterpreneurship and Business Strategies</td>
+                <td rowspan="2">Doubt clearing class</td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2">Web Technology Lab</td>
+                <td>Computer Organisation & Architecture</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Thursday</td>
+                <td> Mathematics-III</td>
+                <td rowspan="2"> Cyber Ethics and laws </td>
+                <td> Web Technology</td>
+                <td> Computer Organisation & Architecture</td>
+                <td rowspan="2">Digital System Design</td>
+                <td colspan="2">Digital System Design lab</td>
+            </tr>
+
+            <tr>
+                <td>Enterpreneurship and Business Strategies</td>
+                <td>Object Oriented Programming using C++</td>
+                <td>Digital System Design</td>
+                <td colspan="2">MOOC</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Friday</td>
+                <td> Object Oriented Programming using C++</td>
+                <td rowspan="2">Digital System Design</td>
+                <td rowspan="2"> Mathematics-III </td>
+                <td> Enterpreneurship and Business Strategies</td>
+                <td rowspan="2">Cyber Ethics and Laws</td>
+                <td rowspan="2">Computer Organisation and Architecture</td>
+                <td rowspan="2">Library</td>
+            </tr>
+
+            <tr>
+                <td>Web Technology</td>
+
+                <td>Mathematics-III</td>
+               
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>
